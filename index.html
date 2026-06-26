@@ -2,16 +2,23 @@
 <html lang="en">
 
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Ryakkam Likitha | Web Developer Portfolio</title>
-
-<meta name="description" content="Portfolio of Ryakkam Likitha, B.Tech CSE student, Web Development Intern and aspiring Full Stack Developer.">
-
-<meta name="keywords" content="Ryakkam Likitha, Portfolio, HTML, CSS, Python, SQL, GitHub">
-
+<meta name="description" content="Ryakkam Likitha - B.Tech CSE Student | Web Developer | Python Learner Portfolio">
+<meta name="keywords" content="Ryakkam Likitha, Portfolio, Web Developer, HTML, CSS, JavaScript, Python">
 <meta name="author" content="Ryakkam Likitha">
+
+<title>Ryakkam Likitha | Portfolio</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 <link rel="stylesheet" href="style.css">
 
@@ -19,21 +26,23 @@
 
 <body>
 
+<a class="skip-link" href="#main-content">Skip to main content</a>
+
 <header>
 
-<nav aria-label="Main Navigation">
+<nav>
 
-<h1>Ryakkam Likitha</h1>
+<h2 class="logo">Likitha</h2>
 
 <ul>
 
-<li><a href="index.html">Home</a></li>
-
-<li><a href="about.html">About</a></li>
-
-<li><a href="projects.html">Projects</a></li>
-
-<li><a href="contact.html">Contact</a></li>
+<li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certificates">Certificates</a></li>
+<li><a href="#activities">Activities</a></li>
+<li><a href="#contact">Contact</a></li>
 
 </ul>
 
@@ -41,44 +50,221 @@
 
 </header>
 
-<main>
+<main id="main-content">
 
-<section id="hero">
+<section id="home" class="hero">
 
-<div class="hero-container">
+<div class="hero-text">
 
-<div class="hero-image">
-
-<img src="profile.png" alt="Ryakkam Likitha Profile Picture">
-
-</div>
-
-<div class="hero-content">
-
-<h2>Hello, I'm</h2>
+<h3>Hello, I'm</h3>
 
 <h1>Ryakkam Likitha</h1>
 
-<h3>B.Tech CSE Student | Web Developer</h3>
+<h2>
+<span id="typing"></span>
+</h2>
 
 <p>
-I am a passionate Computer Science Engineering student at
+
+Currently pursuing B.Tech in Computer Science and Engineering at
 Vardhaman College of Engineering, Hyderabad.
-I enjoy creating responsive websites and continuously learning
-new technologies to become a Full Stack Developer.
+
+Passionate about building responsive websites,
+learning new technologies,
+and becoming a Full Stack Developer.
+
 </p>
 
-<div class="buttons">
+<div class="hero-buttons">
 
-<a href="projects.html">View Projects</a>
+<a href="#projects" class="btn">
+View Projects
+</a>
 
-<a href="contact.html">Contact Me</a>
-
-<a href="https://github.com/ryakkaml-create" target="_blank">GitHub</a>
-
-<a href="https://www.linkedin.com/in/likitha-ryakkam-8a2584405" target="_blank">LinkedIn</a>
+<a href="#contact" class="btn outline">
+Contact Me
+</a>
 
 </div>
+
+<div class="social-icons">
+
+<a href="https://github.com/ryakkaml-create" target="_blank" aria-label="GitHub">
+<i class="fab fa-github"></i>
+</a>
+
+<a href="https://www.linkedin.com/in/likitha-ryakkam-8a2584405" target="_blank" aria-label="LinkedIn">
+<i class="fab fa-linkedin"></i>
+</a>
+
+<a href="mailto:ryakkamlikitha@gmail.com" aria-label="Email">
+<i class="fas fa-envelope"></i>
+</a>
+
+<a href="tel:+919397302020" aria-label="Phone">
+<i class="fas fa-phone"></i>
+</a>
+
+</div>
+
+</div>
+
+<div class="hero-image">
+
+<img src="profile.png"
+alt="Ryakkam Likitha Profile Picture">
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="section-title">
+About Me
+</h2>
+
+<div class="card">
+
+<p>
+
+Hello! I'm <strong>Ryakkam Likitha</strong>,
+a third-year B.Tech Computer Science and Engineering student at
+Vardhaman College of Engineering.
+
+I enjoy designing beautiful,
+responsive websites and continuously improving my programming skills.
+
+My interests include HTML,
+CSS,
+JavaScript,
+Python,
+SQL,
+Git,
+and GitHub.
+
+Currently,
+I am expanding my knowledge through internships,
+certifications,
+and personal projects.
+
+</p>
+
+</div>
+
+</section>
+
+<section id="skills">
+
+<h2 class="section-title">
+Technical Skills
+</h2>
+
+<div class="skills-grid">
+
+<div class="skill-card">
+<h3>HTML5</h3>
+<div class="progress">
+<div class="progress-bar html"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<h3>CSS3</h3>
+<div class="progress">
+<div class="progress-bar css"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<h3>Python</h3>
+<div class="progress">
+<div class="progress-bar python"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<h3>SQL</h3>
+<div class="progress">
+<div class="progress-bar sql"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<h3>GitHub</h3>
+<div class="progress">
+<div class="progress-bar github"></div>
+</div>
+</div>
+
+<div class="skill-card">
+<h3>JavaScript</h3>
+<div class="progress">
+<div class="progress-bar js"></div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section id="projects">
+
+<h2 class="section-title">
+Featured Projects
+</h2>
+
+<div class="project-grid">
+
+<div class="project-card">
+
+<h3>PhonePe Landing Page</h3>
+
+<p>
+
+Responsive landing page
+designed using HTML and CSS.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Tic Tac Toe Game</h3>
+
+<p>
+
+Interactive game created using
+HTML,
+CSS and JavaScript.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Simple Calculator</h3>
+
+<p>
+
+Calculator performing arithmetic
+operations.
+
+</p>
+
+</div>
+
+<div class="project-card">
+
+<h3>Personal Portfolio</h3>
+
+<p>
+
+Professional responsive portfolio website.
+
+</p>
 
 </div>
 
@@ -86,33 +272,155 @@ new technologies to become a Full Stack Developer.
 
 </section>
 
-<section>
+  <section id="certificates">
 
-<h2>Quick Highlights</h2>
+<h2 class="section-title">
+Certificates
+</h2>
 
-<article>
+<div class="certificate-grid">
 
-<h3>🎓 Education</h3>
+<div class="certificate-card">
+<i class="fas fa-award"></i>
+<h3>Infosys Springboard</h3>
+<p>Completed certification courses in programming and web technologies.</p>
+</div>
 
-<p>B.Tech (CSE) | 3rd Year</p>
+<div class="certificate-card">
+<i class="fas fa-award"></i>
+<h3>Simplilearn</h3>
+<p>Successfully completed online learning programs to strengthen technical skills.</p>
+</div>
 
-</article>
+<div class="certificate-card">
+<i class="fas fa-award"></i>
+<h3>Thrinex Internship</h3>
+<p>Web Development Internship focused on practical frontend development.</p>
+</div>
 
-<article>
+</div>
 
-<h3>💼 Internship</h3>
+</section>
 
-<p>Web Development Intern at Thrinex</p>
+<section id="activities">
 
-</article>
+<h2 class="section-title">
+Activities & Achievements
+</h2>
 
-<article>
+<div class="activity-grid">
 
-<h3>🏆 Certifications</h3>
+<div class="activity-card">
+<i class="fas fa-users"></i>
+<h3>NSS</h3>
+<p>Participated in community service and volunteer activities.</p>
+</div>
 
-<p>Infosys Springboard • Simplilearn</p>
+<div class="activity-card">
+<i class="fas fa-medal"></i>
+<h3>NCC</h3>
+<p>Developed discipline, teamwork, and leadership through NCC activities.</p>
+</div>
 
-</article>
+<div class="activity-card">
+<i class="fas fa-basketball"></i>
+<h3>Basketball</h3>
+<p>Active participant in sports, improving teamwork and fitness.</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="contact">
+
+<h2 class="section-title">
+Contact Me
+</h2>
+
+<div class="contact-container">
+
+<div class="contact-info">
+
+<h3>Let's Connect</h3>
+
+<p>
+<i class="fas fa-envelope"></i>
+<strong>Email:</strong>
+<a href="mailto:ryakkamlikitha@gmail.com">
+ryakkamlikitha@gmail.com
+</a>
+</p>
+
+<p>
+<i class="fas fa-phone"></i>
+<strong>Phone:</strong>
+<a href="tel:+919397302020">
++91 9397302020
+</a>
+</p>
+
+<p>
+<i class="fas fa-location-dot"></i>
+<strong>Location:</strong>
+Hyderabad, Telangana
+</p>
+
+<p>
+<i class="fab fa-linkedin"></i>
+<strong>LinkedIn:</strong>
+<a href="https://www.linkedin.com/in/likitha-ryakkam-8a2584405" target="_blank">
+View Profile
+</a>
+</p>
+
+<p>
+<i class="fab fa-github"></i>
+<strong>GitHub:</strong>
+<a href="https://github.com/ryakkaml-create" target="_blank">
+github.com/ryakkaml-create
+</a>
+</p>
+
+</div>
+
+<div class="contact-form">
+
+<form>
+
+<label for="name">Full Name</label>
+<input
+type="text"
+id="name"
+name="name"
+placeholder="Enter your name"
+required>
+
+<label for="email">Email Address</label>
+<input
+type="email"
+id="email"
+name="email"
+placeholder="Enter your email"
+required>
+
+<label for="message">Message</label>
+<textarea
+id="message"
+name="message"
+rows="6"
+placeholder="Write your message"
+required></textarea>
+
+<button type="submit" class="btn">
+Send Message
+</button>
+
+</form>
+
+</div>
+
+</div>
 
 </section>
 
@@ -120,9 +428,21 @@ new technologies to become a Full Stack Developer.
 
 <footer>
 
-<p>© 2026 Ryakkam Likitha | All Rights Reserved</p>
+<p>
+
+© 2026 Ryakkam Likitha. All Rights Reserved.
+
+</p>
+
+<p>
+
+Designed with ❤️ using HTML, CSS & JavaScript.
+
+</p>
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 
