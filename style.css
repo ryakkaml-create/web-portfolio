@@ -133,12 +133,11 @@ nav ul li a:hover{
 }
 
 .hero-image img{
-    width:360px;
-    height:360px;
+    width:450px;
+    height:450px;
     border-radius:50%;
-    object-fit:cover;
-    border:6px solid #38bdf8;
-    box-shadow:0 20px 50px rgba(56,189,248,.35);
+  object-fit: contain;
+background:#0f172a;
 }
 
 /* ===========================
